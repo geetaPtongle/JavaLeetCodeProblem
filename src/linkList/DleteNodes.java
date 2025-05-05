@@ -3,8 +3,9 @@ package linkList;
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
-}
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }}
 
 class DleteNodes {
     public ListNode deleteNodes(ListNode head, int m, int n) {
