@@ -2,10 +2,10 @@ package linkList;
 
 import java.util.LinkedList;
 class Node {
-    int num;
+    int val;
     Node next;
     Node(int a) {
-        num = a;
+        val = a;
         next = null;
     }
 }
@@ -63,10 +63,10 @@ public class RoatedLinkedList {
 
     static void printList(Node head) {
         while(head.next != null) {
-            System.out.print(head.num+"->");
+            System.out.print(head.val+"->");
             head = head.next;
         }
-        System.out.println(head.num);
+        System.out.println(head.val);
 
     }
 }

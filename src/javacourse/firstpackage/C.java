@@ -9,7 +9,6 @@ public class C extends B {
         printMessageFromB();
         b.protectedVariableInB = 400;
         protectedVariableInB = 400;
-
         b.defaultVariableInB = 1000;
 
         A a = new A();
